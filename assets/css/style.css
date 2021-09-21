@@ -1,0 +1,32 @@
+* {
+    --blue: #a8f7ff;
+    --dark-blue: #00123c;
+    --light: #EEEEEE;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--light);
+
+    text-align: center;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    width: 100%;
+}
+
+a, a:visited {
+    color: var(--blue);
+}
